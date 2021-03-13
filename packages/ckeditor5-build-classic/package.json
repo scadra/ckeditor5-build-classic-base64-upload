@@ -1,7 +1,8 @@
 {
-  "name": "@ckeditor/ckeditor5-build-classic",
-  "version": "26.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "name": "ckeditor5-build-classic-base64-upload",
+  "version": "26.0.1",
+  "description": "The lightweight classic editor build of CKEditor 5 with Base64 image upload adapter.",
+  "private": false,
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -25,13 +26,9 @@
     "build"
   ],
   "dependencies": {
-    "@ckeditor/ckeditor5-adapter-ckfinder": "^26.0.0",
     "@ckeditor/ckeditor5-autoformat": "^26.0.0",
     "@ckeditor/ckeditor5-basic-styles": "^26.0.0",
     "@ckeditor/ckeditor5-block-quote": "^26.0.0",
-    "@ckeditor/ckeditor5-ckfinder": "^26.0.0",
-    "@ckeditor/ckeditor5-cloud-services": "^26.0.0",
-    "@ckeditor/ckeditor5-easy-image": "^26.0.0",
     "@ckeditor/ckeditor5-editor-classic": "^26.0.0",
     "@ckeditor/ckeditor5-essentials": "^26.0.0",
     "@ckeditor/ckeditor5-heading": "^26.0.0",
@@ -43,7 +40,8 @@
     "@ckeditor/ckeditor5-paragraph": "^26.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^26.0.0",
     "@ckeditor/ckeditor5-table": "^26.0.0",
-    "@ckeditor/ckeditor5-typing": "^26.0.0"
+    "@ckeditor/ckeditor5-typing": "^26.0.0",
+    "@ckeditor/ckeditor5-upload": "^26.0.0"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^26.0.0",
@@ -67,7 +65,7 @@
   "bugs": "https://github.com/ckeditor/ckeditor5/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5.git",
+    "url": "https://github.com/techshowsolutions/ckeditor5.git",
     "directory": "packages/ckeditor5-build-classic"
   },
   "scripts": {
