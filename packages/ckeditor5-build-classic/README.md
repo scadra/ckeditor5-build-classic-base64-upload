@@ -19,11 +19,11 @@ See:
 First, install the build from npm:
 
 ```bash
-npm install --save @techshowsolutions/ckeditor5-build-classic-base64-upload
+npm install --save ckeditor5-build-classic-base64-upload
 ```
 OR
 ```bash
-yarn add @techshowsolutions/ckeditor5-build-classic-base64-upload
+yarn add ckeditor5-build-classic-base64-upload
 ```
 
 And use it in your website:
@@ -32,7 +32,7 @@ And use it in your website:
 <div id="editor">
 	<p>This is the editor content.</p>
 </div>
-<script src="./node_modules/@techshowsolutions/ckeditor5-build-classic-base64-upload/build/ckeditor.js"></script>
+<script src="./node_modules/ckeditor5-build-classic-base64-upload/build/ckeditor.js"></script>
 <script>
 	ClassicEditor
 		.create( document.querySelector( '#editor' ) )
@@ -48,7 +48,7 @@ And use it in your website:
 Or in your JavaScript application:
 
 ```js
-import ClassicEditor from '@techshowsolutions/ckeditor5-build-classic-base64-upload';
+import ClassicEditor from 'ckeditor5-build-classic-base64-upload';
 
 // Or using the CommonJS version:
 // const ClassicEditor = require( '@ckeditor/ckeditor5-build-classic' );
