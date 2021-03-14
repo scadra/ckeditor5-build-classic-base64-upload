@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-build-classic-base64-upload",
-  "version": "26.0.2",
+  "version": "26.0.3",
   "description": "The lightweight classic editor build of CKEditor 5 with Base64 image upload adapter.",
   "private": false,
   "keywords": [
